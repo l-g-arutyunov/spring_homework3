@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link ,href="css/order_style.css" rel="stylesheet">
+</head>
+<body>
+<form action="/app/create" method="post" th:object="${product}">
+    <input name="id" type="text">
+    <input name="title" type="text">
+    <input name="cost" type="text">
+    <input type="submit" value="Create order">
+</form>
+</body>
+</html>

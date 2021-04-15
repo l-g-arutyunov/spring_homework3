@@ -1,0 +1,8 @@
+com\geekbrains\config\WebInitializer.class
+com\geekbrains\controllers\ShowController.class
+com\geekbrains\entity\Product.class
+com\geekbrains\config\AppConfig.class
+com\geekbrains\entity\ProductImpl.class
+com\geekbrains\repository\ProductRepositoryImpl.class
+com\geekbrains\repository\ProductRepository.class
+com\geekbrains\controllers\AddController.class
